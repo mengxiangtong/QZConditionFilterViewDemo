@@ -19,7 +19,7 @@
 @interface QZFilterDataTableView : UITableView
 
 @property (nonatomic,weak) id<QZFilterDataTableViewDelegate> sortDelegate;
-/** */
+/** 选中的数据*/
 @property (nonatomic,strong) NSMutableArray *sortArr;
 /** 选中的cell
  *  对外接口 可能会有用的情况

@@ -28,7 +28,7 @@
     QZFilterDataTableView *_filterTableView2;
     QZFilterDataTableView *_filterTableView3;
     
-    // 装选中的选项 网络请求做参数
+    // 存储 tableView didSelected数据 数据来源：FilterDataTableView
     NSArray *_dataSource1;
     NSArray *_dataSource2;
     NSArray *_dataSource3;
@@ -221,7 +221,9 @@
 -(void)choseSort:(NSArray *)sortAry
 {
     if (_dataSource1Btn.selected) {
+        // 改变btn显示的数据
         [self changeBtn:_dataSource1Btn Text:[NSString stringWithFormat:@"%@",sortAry.firstObject] Font:[UIFont systemFontOfSize:13] ImageName:@"PR_filter_choice"];
+        // 存储显示的数据
         _dataSource1 = sortAry;
     }else if (_dataSource2Btn.selected){
         [self changeBtn:_dataSource2Btn Text:[NSString stringWithFormat:@"%@",sortAry.firstObject] Font:[UIFont systemFontOfSize:13] ImageName:@"PR_filter_choice"];
@@ -239,15 +241,19 @@
         self.filterBlock(isFilter,_dataSource1,_dataSource2,_dataSource3);
     }
 }
-#pragma mark - 刷新标题布局
+#pragma mark - 刷新标题布局 （相当于手动给值请求）
 -(void)bindChoseArrayDataSource1:(NSArray *)dataSource1Ary DataSource2:(NSArray *)dataSource2Ary DataSource3:(NSArray *)dataSource3Ary
 {
+    
     BOOL isFilter = YES;
     
+    // 第一次赋初值调用还没有进行过didSelect，所有都为空值,不是筛选
     if (_dataSource1.count==0 && _dataSource2.count ==0 && _dataSource3.count==0 ) {
         isFilter=NO;
+        NSLog(@"iS Filter is NO");
     }
     
+    // 取传过来的值，传过来什么请求就请求什么
     NSArray *tempDataSource1 = [NSArray arrayWithArray:dataSource1Ary];
     NSArray *tempDataSource2 = [NSArray arrayWithArray:dataSource2Ary];
     NSArray *tempDataSource3 = [NSArray arrayWithArray:dataSource3Ary];

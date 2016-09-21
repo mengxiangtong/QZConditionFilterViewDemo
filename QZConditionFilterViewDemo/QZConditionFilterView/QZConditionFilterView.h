@@ -14,7 +14,7 @@ typedef void (^FilterBlock)(BOOL isFilter, NSArray *dataSource1Ary,NSArray *data
 
 @interface QZConditionFilterView : UIView
 
-/** 筛选按钮的标题数据 你如全部活动、全部城市、、、*/
+/** 原本用于内部设置createSubView时设置显示默认数据，现在通过外部设置默认，如果有需要可以在内部设置，暂时为无用变量*/
 @property (nonatomic,strong) NSArray *sortTitleAry;
 /** 对应三个下拉tableView的数据源*/
 @property (nonatomic,strong) NSArray *dataAry1;
