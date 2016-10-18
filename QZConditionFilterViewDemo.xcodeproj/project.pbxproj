@@ -487,7 +487,7 @@
 				INFOPLIST_FILE = QZConditionFilterViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZConditionFilterViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZxConditionFilterViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -500,7 +500,7 @@
 				INFOPLIST_FILE = QZConditionFilterViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZConditionFilterViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZxConditionFilterViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -574,6 +574,7 @@
 				44268CC21D923B07006642B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44268CC31D923B07006642B2 /* Build configuration list for PBXNativeTarget "QZConditionFilterViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +583,7 @@
 				44268CC51D923B07006642B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44268CC61D923B07006642B2 /* Build configuration list for PBXNativeTarget "QZConditionFilterViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +592,7 @@
 				44268CC81D923B07006642B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

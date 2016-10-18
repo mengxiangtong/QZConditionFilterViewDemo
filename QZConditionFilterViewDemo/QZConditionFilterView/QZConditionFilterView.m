@@ -217,6 +217,31 @@
     
 }
 
+#pragma mark - 从外部传入条件
+-(void)choseSortFromOutsideWithFirstSort:(NSArray *)firstAry WithSecondSort:(NSArray *)secondAry WithThirdSort:(NSArray *)thirdAry
+{
+    if (firstAry != nil) {
+        [self changeBtn:_dataSource1Btn Text:[NSString stringWithFormat:@"%@",firstAry.firstObject] Font:[UIFont systemFontOfSize:13] ImageName:@"PR_filter_choice"];
+        _dataSource1 = firstAry;
+    }
+    if (secondAry != nil) {
+        [self changeBtn:_dataSource2Btn Text:[NSString stringWithFormat:@"%@",secondAry.firstObject] Font:[UIFont systemFontOfSize:13] ImageName:@"PR_filter_choice"];
+        _dataSource2 = secondAry;
+    }
+    
+    if (thirdAry != nil) {
+        [self changeBtn:_dataSource3Btn Text:[NSString stringWithFormat:@"%@",thirdAry.firstObject] Font:[UIFont systemFontOfSize:13] ImageName:@"PR_filter_choice"];
+        _dataSource3 = thirdAry;
+    }
+    
+    [self dismiss];
+    BOOL isFilter = YES;
+    if (self.filterBlock) {
+        self.filterBlock(isFilter,_dataSource1,_dataSource2,_dataSource3);
+    }
+    
+}
+
 #pragma mark - QZFilterDataTableViewDelegate 选择筛选项
 -(void)choseSort:(NSArray *)sortAry
 {
