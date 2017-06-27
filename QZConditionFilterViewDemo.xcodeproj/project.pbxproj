@@ -15,14 +15,14 @@
 		44268CA61D923B07006642B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44268CA41D923B07006642B2 /* LaunchScreen.storyboard */; };
 		44268CB11D923B07006642B2 /* QZConditionFilterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CB01D923B07006642B2 /* QZConditionFilterViewDemoTests.m */; };
 		44268CBC1D923B07006642B2 /* QZConditionFilterViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CBB1D923B07006642B2 /* QZConditionFilterViewDemoUITests.m */; };
-		44268CCC1D923BB8006642B2 /* QZConditionFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CCB1D923BB8006642B2 /* QZConditionFilterView.m */; };
-		44268CCF1D923BDE006642B2 /* QZFilterDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CCE1D923BDE006642B2 /* QZFilterDataTableView.m */; };
-		44268CD51D92501C006642B2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CD41D92501C006642B2 /* UIView+Extension.m */; };
-		44268CD81D9253BE006642B2 /* QZSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44268CD71D9253BE006642B2 /* QZSortCell.m */; };
-		44268CE61D927A5E006642B2 /* PR_filter_choice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44268CE21D927A5E006642B2 /* PR_filter_choice@2x.png */; };
-		44268CE71D927A5E006642B2 /* PR_filter_choice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44268CE31D927A5E006642B2 /* PR_filter_choice@3x.png */; };
-		44268CE81D927A5E006642B2 /* PR_filter_choice_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44268CE41D927A5E006642B2 /* PR_filter_choice_top@2x.png */; };
-		44268CE91D927A5E006642B2 /* PR_filter_choice_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44268CE51D927A5E006642B2 /* PR_filter_choice_top@3x.png */; };
+		4449C5A71F020648001D6092 /* PR_filter_choice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4449C59B1F020648001D6092 /* PR_filter_choice@2x.png */; };
+		4449C5A81F020648001D6092 /* PR_filter_choice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4449C59C1F020648001D6092 /* PR_filter_choice@3x.png */; };
+		4449C5A91F020648001D6092 /* PR_filter_choice_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4449C59D1F020648001D6092 /* PR_filter_choice_top@2x.png */; };
+		4449C5AA1F020648001D6092 /* PR_filter_choice_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4449C59E1F020648001D6092 /* PR_filter_choice_top@3x.png */; };
+		4449C5AB1F020648001D6092 /* QZConditionFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A01F020648001D6092 /* QZConditionFilterView.m */; };
+		4449C5AC1F020648001D6092 /* QZFilterDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A21F020648001D6092 /* QZFilterDataTableView.m */; };
+		4449C5AD1F020648001D6092 /* QZSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A41F020648001D6092 /* QZSortCell.m */; };
+		4449C5AE1F020648001D6092 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A61F020648001D6092 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		44268CB71D923B07006642B2 /* QZConditionFilterViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZConditionFilterViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44268CBB1D923B07006642B2 /* QZConditionFilterViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZConditionFilterViewDemoUITests.m; sourceTree = "<group>"; };
 		44268CBD1D923B07006642B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44268CCA1D923BB8006642B2 /* QZConditionFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZConditionFilterView.h; sourceTree = "<group>"; };
-		44268CCB1D923BB8006642B2 /* QZConditionFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZConditionFilterView.m; sourceTree = "<group>"; };
-		44268CCD1D923BDE006642B2 /* QZFilterDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZFilterDataTableView.h; sourceTree = "<group>"; };
-		44268CCE1D923BDE006642B2 /* QZFilterDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZFilterDataTableView.m; sourceTree = "<group>"; };
-		44268CD31D92501C006642B2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		44268CD41D92501C006642B2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		44268CD61D9253BE006642B2 /* QZSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZSortCell.h; sourceTree = "<group>"; };
-		44268CD71D9253BE006642B2 /* QZSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZSortCell.m; sourceTree = "<group>"; };
-		44268CE21D927A5E006642B2 /* PR_filter_choice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice@2x.png"; sourceTree = "<group>"; };
-		44268CE31D927A5E006642B2 /* PR_filter_choice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice@3x.png"; sourceTree = "<group>"; };
-		44268CE41D927A5E006642B2 /* PR_filter_choice_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice_top@2x.png"; sourceTree = "<group>"; };
-		44268CE51D927A5E006642B2 /* PR_filter_choice_top@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice_top@3x.png"; sourceTree = "<group>"; };
+		4449C59B1F020648001D6092 /* PR_filter_choice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice@2x.png"; sourceTree = "<group>"; };
+		4449C59C1F020648001D6092 /* PR_filter_choice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice@3x.png"; sourceTree = "<group>"; };
+		4449C59D1F020648001D6092 /* PR_filter_choice_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice_top@2x.png"; sourceTree = "<group>"; };
+		4449C59E1F020648001D6092 /* PR_filter_choice_top@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_filter_choice_top@3x.png"; sourceTree = "<group>"; };
+		4449C59F1F020648001D6092 /* QZConditionFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZConditionFilterView.h; sourceTree = "<group>"; };
+		4449C5A01F020648001D6092 /* QZConditionFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZConditionFilterView.m; sourceTree = "<group>"; };
+		4449C5A11F020648001D6092 /* QZFilterDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZFilterDataTableView.h; sourceTree = "<group>"; };
+		4449C5A21F020648001D6092 /* QZFilterDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZFilterDataTableView.m; sourceTree = "<group>"; };
+		4449C5A31F020648001D6092 /* QZSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZSortCell.h; sourceTree = "<group>"; };
+		4449C5A41F020648001D6092 /* QZSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZSortCell.m; sourceTree = "<group>"; };
+		4449C5A51F020648001D6092 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4449C5A61F020648001D6092 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 		44268C951D923B07006642B2 /* QZConditionFilterViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				44268CC91D923B89006642B2 /* QZConditionFilterView */,
+				4449C5991F020648001D6092 /* QZConditionFilterView */,
 				44268C991D923B07006642B2 /* AppDelegate.h */,
 				44268C9A1D923B07006642B2 /* AppDelegate.m */,
 				44268C9C1D923B07006642B2 /* ViewController.h */,
@@ -161,29 +161,29 @@
 			path = QZConditionFilterViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		44268CC91D923B89006642B2 /* QZConditionFilterView */ = {
+		4449C5991F020648001D6092 /* QZConditionFilterView */ = {
 			isa = PBXGroup;
 			children = (
-				44268CE11D927A5E006642B2 /* images */,
-				44268CD61D9253BE006642B2 /* QZSortCell.h */,
-				44268CD71D9253BE006642B2 /* QZSortCell.m */,
-				44268CD31D92501C006642B2 /* UIView+Extension.h */,
-				44268CD41D92501C006642B2 /* UIView+Extension.m */,
-				44268CCA1D923BB8006642B2 /* QZConditionFilterView.h */,
-				44268CCB1D923BB8006642B2 /* QZConditionFilterView.m */,
-				44268CCD1D923BDE006642B2 /* QZFilterDataTableView.h */,
-				44268CCE1D923BDE006642B2 /* QZFilterDataTableView.m */,
+				4449C59A1F020648001D6092 /* images */,
+				4449C59F1F020648001D6092 /* QZConditionFilterView.h */,
+				4449C5A01F020648001D6092 /* QZConditionFilterView.m */,
+				4449C5A11F020648001D6092 /* QZFilterDataTableView.h */,
+				4449C5A21F020648001D6092 /* QZFilterDataTableView.m */,
+				4449C5A31F020648001D6092 /* QZSortCell.h */,
+				4449C5A41F020648001D6092 /* QZSortCell.m */,
+				4449C5A51F020648001D6092 /* UIView+Extension.h */,
+				4449C5A61F020648001D6092 /* UIView+Extension.m */,
 			);
 			path = QZConditionFilterView;
 			sourceTree = "<group>";
 		};
-		44268CE11D927A5E006642B2 /* images */ = {
+		4449C59A1F020648001D6092 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				44268CE21D927A5E006642B2 /* PR_filter_choice@2x.png */,
-				44268CE31D927A5E006642B2 /* PR_filter_choice@3x.png */,
-				44268CE41D927A5E006642B2 /* PR_filter_choice_top@2x.png */,
-				44268CE51D927A5E006642B2 /* PR_filter_choice_top@3x.png */,
+				4449C59B1F020648001D6092 /* PR_filter_choice@2x.png */,
+				4449C59C1F020648001D6092 /* PR_filter_choice@3x.png */,
+				4449C59D1F020648001D6092 /* PR_filter_choice_top@2x.png */,
+				4449C59E1F020648001D6092 /* PR_filter_choice_top@3x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -298,12 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44268CA61D923B07006642B2 /* LaunchScreen.storyboard in Resources */,
-				44268CE71D927A5E006642B2 /* PR_filter_choice@3x.png in Resources */,
-				44268CE91D927A5E006642B2 /* PR_filter_choice_top@3x.png in Resources */,
-				44268CE61D927A5E006642B2 /* PR_filter_choice@2x.png in Resources */,
+				4449C5A81F020648001D6092 /* PR_filter_choice@3x.png in Resources */,
+				4449C5AA1F020648001D6092 /* PR_filter_choice_top@3x.png in Resources */,
+				4449C5A71F020648001D6092 /* PR_filter_choice@2x.png in Resources */,
 				44268CA31D923B07006642B2 /* Assets.xcassets in Resources */,
 				44268CA11D923B07006642B2 /* Main.storyboard in Resources */,
-				44268CE81D927A5E006642B2 /* PR_filter_choice_top@2x.png in Resources */,
+				4449C5A91F020648001D6092 /* PR_filter_choice_top@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,13 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44268CD51D92501C006642B2 /* UIView+Extension.m in Sources */,
 				44268C9E1D923B07006642B2 /* ViewController.m in Sources */,
-				44268CCC1D923BB8006642B2 /* QZConditionFilterView.m in Sources */,
+				4449C5AB1F020648001D6092 /* QZConditionFilterView.m in Sources */,
+				4449C5AD1F020648001D6092 /* QZSortCell.m in Sources */,
+				4449C5AE1F020648001D6092 /* UIView+Extension.m in Sources */,
 				44268C9B1D923B07006642B2 /* AppDelegate.m in Sources */,
-				44268CCF1D923BDE006642B2 /* QZFilterDataTableView.m in Sources */,
+				4449C5AC1F020648001D6092 /* QZFilterDataTableView.m in Sources */,
 				44268C981D923B07006642B2 /* main.m in Sources */,
-				44268CD81D9253BE006642B2 /* QZSortCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
