@@ -1,4 +1,8 @@
 # ConditionFilterViewDemo
+
+如果觉得下面的很乱 懒得看  直接看ViewController.m使用实例也行
+
+
 TableView条件筛选，类淘宝“销量最高”，“综合排序”
 - 目前只支持三个筛选框，还没有通用框架，如果只要两个，可以直接不加第三个，调整frame即可，如果是四个的话只能自己手动再加
 
