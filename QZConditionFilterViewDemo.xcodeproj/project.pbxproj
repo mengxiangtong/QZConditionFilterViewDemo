@@ -23,6 +23,8 @@
 		4449C5AC1F020648001D6092 /* QZFilterDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A21F020648001D6092 /* QZFilterDataTableView.m */; };
 		4449C5AD1F020648001D6092 /* QZSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A41F020648001D6092 /* QZSortCell.m */; };
 		4449C5AE1F020648001D6092 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449C5A61F020648001D6092 /* UIView+Extension.m */; };
+		44B829822089858600B8B04B /* PR_project_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B829802089858600B8B04B /* PR_project_ok@2x.png */; };
+		44B829832089858600B8B04B /* PR_project_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B829812089858600B8B04B /* PR_project_ok@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		4449C5A41F020648001D6092 /* QZSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZSortCell.m; sourceTree = "<group>"; };
 		4449C5A51F020648001D6092 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		4449C5A61F020648001D6092 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		44B829802089858600B8B04B /* PR_project_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_project_ok@2x.png"; sourceTree = "<group>"; };
+		44B829812089858600B8B04B /* PR_project_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PR_project_ok@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 		4449C59A1F020648001D6092 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				44B829802089858600B8B04B /* PR_project_ok@2x.png */,
+				44B829812089858600B8B04B /* PR_project_ok@3x.png */,
 				4449C59B1F020648001D6092 /* PR_filter_choice@2x.png */,
 				4449C59C1F020648001D6092 /* PR_filter_choice@3x.png */,
 				4449C59D1F020648001D6092 /* PR_filter_choice_top@2x.png */,
@@ -299,7 +305,9 @@
 			files = (
 				44268CA61D923B07006642B2 /* LaunchScreen.storyboard in Resources */,
 				4449C5A81F020648001D6092 /* PR_filter_choice@3x.png in Resources */,
+				44B829822089858600B8B04B /* PR_project_ok@2x.png in Resources */,
 				4449C5AA1F020648001D6092 /* PR_filter_choice_top@3x.png in Resources */,
+				44B829832089858600B8B04B /* PR_project_ok@3x.png in Resources */,
 				4449C5A71F020648001D6092 /* PR_filter_choice@2x.png in Resources */,
 				44268CA31D923B07006642B2 /* Assets.xcassets in Resources */,
 				44268CA11D923B07006642B2 /* Main.storyboard in Resources */,
