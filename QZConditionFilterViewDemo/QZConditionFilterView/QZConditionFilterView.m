@@ -60,7 +60,7 @@
     _dataSource1Btn = [self buttonWithLeftTitle:@"" titleColor:UIColorFromRGB(0x333333) Font:[UIFont systemFontOfSize:13] backgroundColor:[UIColor whiteColor] RightImageName:@"PR_filter_choice" Frame:CGRectMake(0, 0, (SCREEN_WIDTH-1)/3, 40)];
     [_dataSource1Btn setTitleColor:UIColorFromRGB(0x00a0ff) forState:UIControlStateSelected];
     [_dataSource1Btn setImage:[UIImage imageNamed:@"PR_filter_choice_top"] forState:UIControlStateSelected];
-    [_dataSource1Btn addTarget:self action:@selector(filterChoseData1:) forControlEvents:UIControlEventTouchUpInside];
+    [_dataSource1Btn addTarget:self action:@selector(filterChoseData:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_dataSource1Btn];
     
     UILabel *middleLine=[[UILabel alloc] initWithFrame:CGRectMake(_dataSource1Btn.x+_dataSource1Btn.width, 8 , 0.5, 24)];
@@ -70,7 +70,7 @@
     _dataSource2Btn = [self buttonWithLeftTitle:@"" titleColor:UIColorFromRGB(0x333333) Font:[UIFont systemFontOfSize:13] backgroundColor:[UIColor whiteColor] RightImageName:@"PR_filter_choice" Frame:CGRectMake(_dataSource1Btn.x+_dataSource1Btn.width+0.5, 0, (SCREEN_WIDTH-1)/3, 40)];
     [_dataSource2Btn setTitleColor:UIColorFromRGB(0x00a0ff) forState:UIControlStateSelected];
     [_dataSource2Btn setImage:[UIImage imageNamed:@"PR_filter_choice_top"] forState:UIControlStateSelected];
-    [_dataSource2Btn addTarget:self action:@selector(filterChoseData2:) forControlEvents:UIControlEventTouchUpInside];
+    [_dataSource2Btn addTarget:self action:@selector(filterChoseData:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_dataSource2Btn];
     
     
@@ -81,7 +81,7 @@
     _dataSource3Btn = [self buttonWithLeftTitle:@"" titleColor:UIColorFromRGB(0x333333) Font:[UIFont systemFontOfSize:13] backgroundColor:[UIColor whiteColor] RightImageName:@"PR_filter_choice" Frame:CGRectMake(_dataSource2Btn.x+_dataSource2Btn.width+0.5, 0, (SCREEN_WIDTH-1)/3, 40)];
     [_dataSource3Btn setTitleColor:UIColorFromRGB(0x00a0ff) forState:UIControlStateSelected];
     [_dataSource3Btn setImage:[UIImage imageNamed:@"PR_filter_choice_top"] forState:UIControlStateSelected];
-    [_dataSource3Btn addTarget:self action:@selector(filterChoseData3:) forControlEvents:UIControlEventTouchUpInside];
+    [_dataSource3Btn addTarget:self action:@selector(filterChoseData:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_dataSource3Btn];
     
     
@@ -129,33 +129,11 @@
     return btn;
 }
 
-- (void)filterChoseData1:(UIButton *)btn
+- (void)filterChoseData:(UIButton *)btn
 {
     btn.selected=!btn.selected;
     if (btn.selected) {
-        [self showWithData:self.dataAry1 button:btn];
-        _selectBtn=btn;
-    }else{
-        [self dismiss];
-    }
-}
-
-- (void)filterChoseData2:(UIButton *)btn
-{
-    btn.selected=!btn.selected;
-    if (btn.selected) {
-        [self showWithData:self.dataAry1 button:btn];
-        _selectBtn=btn;
-    }else{
-        [self dismiss];
-    }
-}
-
-- (void)filterChoseData3:(UIButton *)btn
-{
-    btn.selected=!btn.selected;
-    if (btn.selected) {
-        [self showWithData:self.dataAry1 button:btn];
+        [self showTableView:btn];
         _selectBtn=btn;
     }else{
         [self dismiss];
@@ -163,7 +141,7 @@
 }
 
 #pragma mark - 显示下拉框
--(void)showWithData:(NSArray *)type button:(UIButton *)btn
+-(void)showTableView:(UIButton *)btn
 {
     [self prepareUIWithBtn:btn];
     _isShow=YES;
